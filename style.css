@@ -1,5 +1,7 @@
 body{
     font-family: Arial;
+    background-color: aliceblue;
+    padding: 40px 0px;
 }
 
 h2 {
@@ -14,4 +16,11 @@ span {
 img {
     width: 150px;
     height: 200px;
+}
+section,
+header {
+    padding: 10px 60px 20px 60px;
+    background-color: white;
+    width: 960px;
+    margin: 0 auto;
 }
