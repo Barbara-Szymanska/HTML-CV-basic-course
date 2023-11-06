@@ -5,7 +5,8 @@ body{
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 32px;
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -19,28 +20,36 @@ span {
     color: grey;
 }
 
+.container {
+    box-shadow: 0px 0px 20px grey;
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    
+}
+
 section,
 header {
     padding: 10px 60px 20px 60px;
-    background-color: white;
-    width: 960px;
-    margin: 0 auto;
+    
+    
 }
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 60px;
 }
 header ul {
     list-style: none;
 }
-header li {
+li {
     margin-bottom: 15px;
 }
 .address-icon {
     width: 16px;
     height: 16px;
-    background-color: cornflowerblue;
+    background-color: #6495ed;
     margin-right: 10px;
     padding: 8px;
     vertical-align: middle;
@@ -82,10 +91,11 @@ p {
     color: black;
     text-decoration: none;
     padding: 10px 20px;
-    margin-top: 10px;
+    margin-top: 20px;
     display: inline-block;
     border-radius: 26px;
     transition: background-color 0.5s, color 0.5s;
+    box-shadow: 0px 0px 10px grey;
 }
 .cv-download-link:hover {
     color: white;
